@@ -7,7 +7,7 @@ from fastapi import FastAPI
 from starlette.staticfiles import StaticFiles
 
 from app.core.core import run_core, Core
-from app.snmp.router_snmp import router as router_snmp
+from app.snmp.router import router as router_snmp
 from app.settings import STATIC_DIR
 from app.client.router_web_client import router as router_web_client
 from app.auth.router_auth import router as router_auth

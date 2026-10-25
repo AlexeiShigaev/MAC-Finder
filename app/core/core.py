@@ -8,7 +8,7 @@ from app.core.models import NewDevice, DeviceInfo, PortInfo, InternalIP
 from app.core.utils import is_it_ipv4, is_it_mac_addr
 from app.database import motorchik
 from app.snmp.models import QueryOID, ResultQueryOID
-from app.snmp.router_snmp import (
+from app.snmp.router import (
     query_info_ip,
     query_info,
     query_mac_vlan_port,
